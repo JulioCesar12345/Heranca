@@ -25,6 +25,8 @@ public class Heranca {
         carro.setNumeroRodas(4);//NumeroRodas herdado da classe Terrestre
         carro.SetCapacidade(0);//Capacidade herdado da classe transportante
         
+       carro.mostrarCarro();
+        
     }
     
 }

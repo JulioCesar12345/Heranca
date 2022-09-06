@@ -9,7 +9,7 @@ package heranca;
  *
  * @author julio.gabardo
  */
-public class Automovel extends Terrestre{//Extends esta erdando atributos classe terrestre.
+public class Automovel extends Terrestre{//Extends esta herdando atributos classe terrestre.
     private String numPlaca;
     private int numPortas;
 
@@ -27,6 +27,9 @@ public class Automovel extends Terrestre{//Extends esta erdando atributos classe
 
     public void setNumPortas(int numPortas) {
         this.numPortas = numPortas;
+    }
+    public void mostrarCarro(){
+        System.out.println("A placa é: "+numPlaca+" o numero de portas: "+numPortas+" o numero de rodas: "+numeroRodas);
     }
     
     
