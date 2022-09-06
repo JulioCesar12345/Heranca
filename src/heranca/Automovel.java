@@ -9,6 +9,25 @@ package heranca;
  *
  * @author julio.gabardo
  */
-public class Automovel {
+public class Automovel extends Terrestre{//Extends esta erdando atributos classe terrestre.
+    private String numPlaca;
+    private int numPortas;
+
+    public String getNumPlaca() {
+        return numPlaca;
+    }
+
+    public int getNumPortas() {
+        return numPortas;
+    }
+
+    public void setNumPlaca(String numPlaca) {
+        this.numPlaca = numPlaca;
+    }
+
+    public void setNumPortas(int numPortas) {
+        this.numPortas = numPortas;
+    }
+    
     
 }

@@ -16,6 +16,14 @@ public class Heranca {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Automovel carro = new Automovel();
+        Automovel moto = new Automovel();
+        
+        
+        carro.setNumPlaca(" GRO 9565");
+        carro.setNumPortas(3);
+        carro.setNumeroRodas(4);//NumeroRodas herdado da classe Terrestre
+        carro.SetCapacidade(0);//Capacidade herdado da classe transportante
         
     }
     
