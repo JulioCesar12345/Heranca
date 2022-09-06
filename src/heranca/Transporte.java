@@ -10,7 +10,7 @@ package heranca;
  * @author julio.gabardo
  */
 public class Transporte {
-   private int capacidade;
+   protected int capacidade;//Protected permite as classes ancestrais usarem atributos das classes que foram herdadas.
 
     public int getCapacidade() {//alt+insert geter e setter
         return capacidade;

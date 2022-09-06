@@ -26,6 +26,7 @@ public class Heranca {
         carro.SetCapacidade(0);//Capacidade herdado da classe transportante
         
        carro.mostrarCarro();
+       moto.mostrarCarro();
         
     }
     
